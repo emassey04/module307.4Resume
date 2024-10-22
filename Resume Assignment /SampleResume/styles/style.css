@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.resume-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.sidebar {
+    width: 35%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.contact-info h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.contact-info ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+}
+
+.about, .links, .references {
+    margin-bottom: 30px;
+}
+
+.main-content {
+    width: 65%;
+    padding: 40px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.job, .education-item {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "•";
+    color: #333;
+    padding-right: 10px;
+}

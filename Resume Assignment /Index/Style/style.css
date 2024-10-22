@@ -1,0 +1,72 @@
+
+.border {
+    border-color: rgb(8, 8, 8);
+    border-radius: 100px;
+
+}
+
+
+  body {
+    background-color: #a46161;
+    font-family:"Inter", sans-serif;
+    color: #0e0d0d;
+    text-align: center;
+    padding: 15px;
+    margin: 30px 0;
+    border-radius: 0 50px 50px 0;
+
+  }
+  img {
+    width: 200px;
+    height: 300px;
+    
+  }
+  
+  
+  h2 {
+    background-color: #acaca4;
+    font-family: "playwrite england semijoined"; "playfair display sc";
+     font-style:italic;
+    
+  }
+  .skills {
+
+    text-align: left;
+    border-style:double;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 35px
+    margin-right: 100px
+    margin-left: 50px
+    flex: 1;
+
+
+
+  }
+  
+  ul {
+    
+    text-align: left;
+    border-style:double;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 35px
+  }
+  
+ 
+ 
+  
+
+
+
+p {
+    color: rgb(1, 0, 0);
+    
+}
+
+h1 {
+ font-family: "playfair display sc;";
+font-style: italic; 
+font-weight:bolder;
+}
+

@@ -1,0 +1,74 @@
+body {
+    background-color: #ffffff;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #3c1742;
+    text-align: center;
+  }
+  img {
+    width: 150px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .header {
+    display: flex;
+    flex-flow: wrap;
+    border: 8px solid #957186;
+    border-bottom: none;
+  }
+  .hello {
+    display: flex;
+    width: 55%;
+    border: 5px solid #1a535c;
+  }
+  .quickInfo {
+    border: 5px solid #1a535c;
+    border-left: none;
+    width: 45%;
+  }
+  .quickInfo > ul {
+    list-style: none;
+  }
+  .bio {
+    border: 5px solid #1a535c;
+    border-top: none;
+  }
+  .row {
+    display: -webkit-flex;
+    display: flex;
+  }
+  .main {
+    text-align: start;
+    width: 60%;
+    border: 8px solid #957186;
+    padding: 10px;
+  }
+  h2 {
+    background-color: #969794;
+  }
+  .skills {
+    border: 8px solid #957186;
+    border-left: none;
+    padding: 10px;
+    width: 40%;
+  }
+  ul {
+    list-style: circle;
+    text-align: left;
+  }
+  .dlResume {
+    width: 120px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 4px solid #1a535c;
+  }
+  a {
+    text-decoration: none;
+    color: #3c1742;
+  }
+  .dlResume:hover {
+    background-color: #957186;
+  }

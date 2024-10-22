@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #643e3e;
+  padding: 15px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  height: 200%;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 10%;
+  height: 1300px; /* only for demonstration, should be removed */
+  background: #8b6363;
+  padding: 205px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height:fit-content;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>CSS Layout Float</h2>
+<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
+
+<header>
+  <h2>Ericka Massey Resume</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">London</a></li>
+      <li><a href="#">Paris</a></li>
+      <li><a href="#">Tokyo</a></li>
+    </ul>
+  </nav>
+  
+  
+  <div class="article">
+    <h2>Employment</h2>
+    <h3>IT Support Technician, Cherokee Federal / Ramstein, Germany</h3>
+    <p><strong>Duration:</strong> 08/2023-03/2024</p>
+    <ul>
+        <li>Re-image and image government applications and software to multiple types of operating systems</li>
+        <li>Create and update multiple VLANs for printers, computers, and other devices that require local network access</li>
+        <li>Troubleshoot and diagnose issues with docking stations, PCs, laptops scanners, Wacom tablets, barcode scanners</li>
+        <li>Supported MHS and DHA Genesis team with installing printers, scanners computers, and tablets to successfully execute system implementation throughout the Landstuhl Regional Medical Center</li>
+        <li>Communicate with the local network team on ports that need to be patched by testing each port using a Network Fluke</li>
+        <li>Designed and delivered training programs and workshops on cloud governance best practices, tools, and processes, empowering over 200
+            employees across global teams to adopt and adhere to governance standards</li>
+        <li>Built and managed Azure services such as storage accounts, app services, subscriptions, SQL databases, and more</li>
+        </ul> <br>
+
+<h3>Azure Cloud Engineer, <stong>Verida</stong> / Atlanta, GA (Remote)</h3>
+<p><strong>Duration:</strong> 06/2021 - 09/2023</p>
+<ul>
+    <li>Delivered technical presentations and workshops to stakeholders, demonstrating the value and benefits of proposed cloud solutions and
+        securing buy-in from key decision-makers.</li>
+    <li>Deployed, configured, and managed a VMware environment hosting over 1,000 VMs running Windows and Linux Operating Systems</li>
+    <li>Architected cloud infrastructure strategies, including multi-cloud deployments, hybrid cloud configurations, and cloud migration plans for
+        large enterprises.</li>
+    <li>Implemented and provided ongoing support for VMware Skyline,leveraging its proactive analytics and recommendations capabilities to
+        enhance system performance</li>
+    <li>Collaborated with cross-functional teams to define cloud architecture best practices, design patterns, and technology standards, ensuring alignment
+        with business objectives and regulatory requirements.</li>
+</ul>
+</div>
+
+
+<div>
+<h3>Cloud Architect, Truist Bank / Atlanta, GA (Remote)</h3>
+    <p><strong>Duration:</strong>06/2021 - 04/2022</p>
+    <ul>
+        <li>Demonstrated advanced proficiency in VMware SRM and PowerShell scripting, facilitating efficient system management and automation</li>
+        <li>Actively participated in weekend maintenance and On-Call rotations,ensuring round-the-clock availability and support for critical systems</li>
+        <li>Executed VM creation, template management, snapshots, and backup operations, leveraging tools such as Avamar and vROps for streamlined
+            management</li>
+        <li>Produced and meticulously maintained documentation for SOPs, configurations, and processes across vSphere versions 6x-8x, ensuring
+            transparency and consistency in system management</li>
+        <li>Deployed, configured, and maintained computation on Azure cloud (Create and configure Virtual Machines for Windows)</li>
+    </ul>
+</div>
+
+    
+<div>
+<h3>Azure Cloud Engineer, <stong>Verida</stong> / Atlanta, GA (Remote)</h3>
+    <p><strong>Duration:</strong> 06/2021 - 09/2023</p>
+    <ul>
+        <li>Delivered technical presentations and workshops to stakeholders, demonstrating the value and benefits of proposed cloud solutions and
+            securing buy-in from key decision-makers.</li>
+        <li>Deployed, configured, and managed a VMware environment hosting over 1,000 VMs running Windows and Linux Operating Systems</li>
+        <li>Architected cloud infrastructure strategies, including multi-cloud deployments, hybrid cloud configurations, and cloud migration plans for
+            large enterprises.</li>
+        <li>Implemented and provided ongoing support for VMware Skyline,leveraging its proactive analytics and recommendations capabilities to
+            enhance system performance</li>
+        <li>Collaborated with cross-functional teams to define cloud architecture best practices, design patterns, and technology standards, ensuring alignment
+            with business objectives and regulatory requirements.</li>
+    </ul>
+
+</div>
+
+
+</div>
+</div>
+            
+</div>
+</div>
+</div>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
+
